@@ -636,7 +636,7 @@ int  main(int argc, char *argv[])
    		for(ii=0; ii<inparms.NC; ii++)  // for each cluster 
    			{
        			idx[ii]=random();   //compute a random number
-       			idx[ii]=idx[ii]%num_rows_original; //idx[ii] must contain a number in [0;N-1] since we have N nodes
+       			idx[ii]=idx[ii]%(num_rows_original-1); //idx[ii] must contain a number in [0;N-1] since we have N nodes
    				//    printf("printing random idx %d\n", idx[lk]);
    			}
    		//Assuming NC random rows of X as the cluster centroids
