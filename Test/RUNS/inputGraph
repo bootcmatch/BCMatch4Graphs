@@ -1,0 +1,16 @@
+1                   % matrix format:0 COO, 1 MM, 2 CSR
+sample_LLawyers_friend36.mtx           % Matrix file
+0                   % solver_type: 0 multiplicative, 1 symmetrized multi., 2 additive
+40                  % max_hrc
+1.0e-6              % conv_ratio
+15                  % number of iterations for conv. rate est.
+0                   %matchtype: 0, Preis; 1 HSL-mc64; 2 Spral-Auction; 3 Suitor
+1                   %aggrsweeps; passi di aggregazione a coppie. 0, pairs; 1 double pairs ...
+0                   %aggr_type; 0 unsmoothed, 1 smoothed
+39                  %max_levels; max number of levels built for the single hierarchy
+0                   %cycle_type: 0-Vcycle, 1-Hcycle, 2-Wcycle, 3-Kcycle
+1                   %coarse_solver: 9  SuperLU,  0 Jacobi, 1 FGS/BGS, 3 symmetrized GS, 4 L1-smoother
+1                   %relax_type: 0 Jacobi, 1 FGS/BGS, 3 symmetrized GS, 4 L1-smoother
+1                   %prerelax_sweeps
+1                   %postrelax_sweeps
+4                   %number of clusters
