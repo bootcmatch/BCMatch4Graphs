@@ -23,6 +23,6 @@ sample_LLawyers_adv36.mtx - metadata_sample_LLawyers_36.txt
 sample_LLawyers_friend36.mtx - metadata_sample_LLawyers_36.txt 
 sample_yeast.mtx - metadata_sample_yeast.txt
 
-NB: We advice a non-expert user to avoid changing the default algorithmic parameters for the the bootstrap application (from the third to the second-last line) 
+NB: We advice a non-expert user to avoid changing the default algorithmic parameters for the bootstrap application (from the third to the second-last line) 
 and to only change the name of the adjacency matrix, the number of desired clusters and the name of the file of the metadata. Indeed, algorithmic parameters for
-bootstrap affects the computational complexity and convergence behaviour of the overall procedure.
+bootstrap affect the computational complexity and convergence behaviour of the overall procedure.
