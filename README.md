@@ -5,11 +5,11 @@ BCMatch4Graphs code is an extension of BootCMatch including functionalities for 
 It relies on BootCMatch for all the functionalities to embed the graphs in the smooth vectors space related to the graph Laplacian, and to apply a K-means spatial clustering
 as described in:  
 
-P. D'Ambra, L. Cutillo, P. S. Vassilevski, Bootstrap AMG for Spectral Clustering. Computational and Mathematical Methods. Vol. 1, 2019, e1020, https://doi.org/10.1002/cmm4.1020.
+P. D'Ambra, L. Cutillo, P. S. Vassilevski, Bootstrap AMG for Spectral Clustering. Computational and Mathematical Methods. Vol. 1, 2019, e1020. https://doi.org/10.1002/cmm4.1020.
 
 It also includes the subroutines needed to extend the clustering method to attributed graphs, as described in:
 
-P. D'Ambra, C. De Santis, P. S. Vassilevski, L. Cutillo, Network Clustering by Embedding of Attribute-augmented Graphs, submitted.
+P. D’Ambra, P. S. Vassilevski, L. Cutillo, Extending bootstrap AMG for clustering of attributed graphs, Applied Mathematics and Computation, Vol. 447, 2023. https://doi.org/10.1016/j.amc.2023.127904
 
 All the new functionalities for dealing with graphs are implemented in the new folder SRC/BCMGRAPHS.
 
